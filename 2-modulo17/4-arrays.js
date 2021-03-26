@@ -74,3 +74,38 @@
 //   2. Sumar los valores del siguiente Array 
 //         [12, 45, 32, 56, 190]
 // `)
+
+// let musicas = ["Jazz", "Blues"]
+
+// console.log(musicas)
+
+
+// musicas.push("Rock-n-Roll")
+
+// console.log(musicas)
+
+// musicas [1] = "Classics"
+
+// console.log(musicas)
+
+// musicas.unshift("Rap", "Reggae")
+
+// console.log(musicas)
+
+
+// let numeros =  [12, 45, 32, 56, 190]
+
+// let suma = numeros.reduce(( a, b ) => a + b)
+
+// console.log (suma)
+
+
+// let sumas = 0, numero = [1, 2 , 3];
+//     numero.forEach (function(numero){
+//         sumas += numero;
+//     });
+//     console.log(sumas);
+
+
+
+

@@ -56,20 +56,20 @@
 //   .then((response) => response.json())
 //   .then((json) => console.log(json));
 
-const url = "https://jsonpder.typicode.com/posts";
+// const url = "https://jsonpder.typicode.com/posts";
 
-const getPosts = async () => {
-  try {
-    const response = await fetch(url)
-    const posts = await response.json()
-    console.log(posts)
-  } catch(err) {
-    console.log(err)
-    console.log("Hubo un error intentando acceder al backend")
-  }
-}
+// const getPosts = async () => {
+//   try {
+//     const response = await fetch(url)
+//     const posts = await response.json()
+//     console.log(posts)
+//   } catch(err) {
+//     console.log(err)
+//     console.log("Hubo un error intentando acceder al backend")
+//   }
+// }
 
-getPosts()
+// getPosts()
 
 
 /*************************************
@@ -85,3 +85,45 @@ getPosts()
 //   4. Obtener los usuarios que tengan id que sea mayor a 5
 //   5. Obtener el usuario con el numero de telefono que sea igual a 024-648-3804
 // `)
+
+// //1 Hacer un get al siguiente endpoint https://jsonplaceholder.typicode.com/users
+let link = "https://jsonplaceholder.typicode.com/users"
+
+fetch(link)
+.then((response) => response.json() )
+.then((data) =>{ 
+
+  // //2  Guardar ese arreglo en una variable
+  const resultado = data 
+
+  // //3 Loopear sobre ese arreglo y mostrar el email de cada usuario por consola
+  // resultado.forEach(resultado => { 
+  //   console.log(resultado.email)
+  // });
+
+  // //4 (de las 2 formas devuelve lo mismo) Obtener los usuarios que tengan id que sea mayor a 5
+  // let filtro = resultado.filter(function(item){
+  //   return item.id > 5 
+  // })
+  // console.log (filtro)
+
+  // let filtro = resultado.filter(function(resultado){
+  //   return resultado.id > 5 
+  // })
+  // console.log (filtro)
+
+  // //5 (de las 2 formas devuelve lo mismo) Obtener el usuario con el numero de telefono que sea igual a 024-648-3804
+
+//   let encontrar = resultado.find(function(item){
+//     return item.phone === "024-648-3804"
+//   })
+//   console.log(encontrar)
+
+//   let encontrar = resultado.find(function(resultado){
+//     return resultado.phone === "024-648-3804"
+//   })
+//   console.log(encontrar)
+
+
+})
+

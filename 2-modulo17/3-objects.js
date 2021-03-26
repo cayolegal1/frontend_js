@@ -83,3 +83,62 @@
 // multiplyNumeric(menu);
 
 // Después de la llamada console.log(menu) deberia devolver { width: 400, height: 600, title: 'Mi menú' }
+
+
+//1 
+
+// let objeto = {}
+
+// console.log(objeto)
+
+
+// let objeto = {
+//     name: "John"
+// }
+
+// console.log(objeto)
+
+// objeto = {
+//     name: "John",
+//     surname: "Smith"
+// }
+
+// console.log(objeto)
+
+// objeto.name = "Pete" 
+
+// console.log(objeto)
+
+// delete objeto.name 
+
+// console.log(objeto)
+
+//  let salaries = {
+//    John: 100,
+//    Ann: 160,
+//    Pete: 130
+//  }
+
+
+//  let suma = 0
+//  for (let key in salaries){
+//  suma += salaries[key]
+//  console.log (suma)
+//  }
+
+// let menu = {
+//   width: 200,
+//   height: 300,
+//   title: "Mi menú"
+// };
+
+// function multiplyNumeric() {
+  
+
+//     console.log(menu.width * 2)
+//     console.log(menu.height * 2)
+// }
+
+// multiplyNumeric()
+
+// console.log(menu)

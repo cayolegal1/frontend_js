@@ -115,3 +115,50 @@
 //     return console.log('No eres mayor de edad todavia');
 //   }
 // }
+
+//1
+// let edad = (age) => {
+//     return (age > 18) ? true : console.log('Sos menor')}
+//     console.log (edad(10))
+
+
+//2
+// let a = 2
+// let b = 5 
+
+// function mayor (a, b) {
+//     if (a > b){
+//     return console.log (a)
+// } else { 
+//     return console.log (b)
+// }}
+
+// mayor (11, 10)
+
+
+//3
+// let a = 5
+// let b = 6
+// function multiplicacion (a, b) {
+//     let mul = a * b
+//     return console.log(mul)
+// }
+
+// multiplicacion (5, 6)
+
+//4
+
+//4.3
+// let multi = (a, b) => a * b
+
+// console.log(multi(7, 7))
+
+//4.2
+
+
+// let mayor_numero = (a, b) => {
+//     return (a > b) ? console.log(a) : console.log(b)
+// }
+
+// console.log(mayor_numero(40, 50))
+

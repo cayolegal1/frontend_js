@@ -1,0 +1,62 @@
+.container_1 {
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 56px;
+    position: absolute;
+  
+  }
+
+  .container img {
+    width: 71%;
+  }
+
+  img:hover {
+    width: 77%;
+    
+  }
+
+.navegacion {
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    display: flex;
+    height: 15vh;
+    border-bottom: 1px orangered solid;
+    height: 150px;
+   // background-color: #ff9800;
+  }
+  
+
+.navbar_1 {
+    width: 100%;
+  }
+  
+  nav {
+    margin-top: 59px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+  }
+  
+  ul {
+    list-style: none;
+    color: black;
+    display: flex;
+    position: fixed;
+  }
+  
+  .lista {
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .lista:hover {
+    color: white;
+    list-style: none;
+    font-weight: bolder;
+    text-decoration: none;
+  }
