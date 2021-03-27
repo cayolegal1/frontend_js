@@ -1,0 +1,58 @@
+.header {
+    //preguntar por que en position relative el slider no cubrió todo el header y en absolute si
+    height: 130px;
+    border-bottom: 1px solid rgb(255, 123, 0);
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000; 
+    //preguntar si el z-index hace que la linea naranja se vea, porque sin ese no se ve 
+    }
+
+.container img {
+    height: 50px;
+    width: 112px;
+    margin-left: -29px;
+    margin-top: 20px;
+    position: absolute; 
+    }
+
+
+ img:hover {
+    width: 130px;
+    }
+ 
+
+.navcontainer {
+    width: 100%;
+    }
+
+  
+  .navbar {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    }
+  
+  
+  ul {
+    list-style: none;
+    display: flex;
+    position: fixed;
+    }
+  
+  .lista {
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    }
+  
+  .lista:hover {
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
