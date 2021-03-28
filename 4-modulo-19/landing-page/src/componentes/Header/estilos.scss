@@ -1,7 +1,7 @@
 .header {
     //preguntar por que en position relative el slider no cubrió todo el header y en absolute si
     height: 130px;
-    border-bottom: 1px solid rgb(255, 123, 0);
+    border-bottom: 1px solid $color-primary;
     position: absolute;
     width: 100%;
     padding: 20px;

@@ -1,6 +1,9 @@
 import './App.scss';
 import Header from './componentes/Header/Header';
 import Hero from './componentes/Hero/Hero';
+import About from './componentes/About/About';
+import Products from './componentes/Products/Products';
+import Services from './componentes/Services/Services';
 
 
 const App =() => {
@@ -8,6 +11,9 @@ const App =() => {
     <div className="App">
       <Header />
       <Hero />
+      <About />
+      <Products />
+      <Services />
     </div>
   );
 }

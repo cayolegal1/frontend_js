@@ -1,6 +1,6 @@
 import React from 'react'
 import SliderImage from '../../img/slider-1.png'
-import {Carousel} from 'react-bootstrap';
+import {Carousel, Button} from 'react-bootstrap';
 
 const Hero = () => {
     return (
@@ -10,23 +10,25 @@ const Hero = () => {
     <img
       className="d-block w-100"
       src={SliderImage}
-      alt="First slide"
-    />
+      alt="First slide" title="Slider"
+    /> 
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Sed ut perspiciatis  <br/> unde omnis iste natus</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantim doloremque.</p>
+      <Button variant='primary' className="But-read"> Read More </Button>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
       src={SliderImage}
-      alt="Second slide"
+      alt="Second slide" 
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Sed ut perspiciatis  <br/> unde omnis iste natus</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantim doloremque.</p>
+      <Button variant='primary' className="But-read"> Read More </Button>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -37,8 +39,9 @@ const Hero = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Sed ut perspiciatis  <br/> unde omnis iste natus</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantim doloremque.</p>
+      <Button variant='primary' className="But-read" > Read More </Button>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

@@ -1,0 +1,43 @@
+.Services {
+  height: 748px;
+  width: 100%;
+  background-image: url(../../img/section4-image.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+
+}
+
+.Services img {
+    display: flex;
+}
+
+.ImagesContainer {
+    position: absolute;
+    top: 2330px;
+    z-index: 1000;
+    right: 520px;
+}
+
+
+.accordion {
+    width: 55%;
+    margin-left: 8%;
+    margin-top: 11%;
+
+}
+
+.Button {
+    color: gray;
+    font-weight: bold;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 2.25rem;
+    padding-top: 40px;
+    padding-right: 73px;
+}
+
+

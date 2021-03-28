@@ -6,7 +6,7 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <a href="www.facebook.com">
-                    <img src={Logo} alt="hola"/>
+                    <img src={Logo} alt="hola" title="Logo" />
                 </a>
             </div>
                     <nav className="navbar">
