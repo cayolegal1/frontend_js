@@ -3,7 +3,6 @@ import  Accordion from 'react-bootstrap/Accordion';
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import ImageUp from '../../img/Icon feather-chevron-up.svg';
-import ImageDown from '../../img/Icon feather-chevron-down.svg';
 
 
 const Services = () => {

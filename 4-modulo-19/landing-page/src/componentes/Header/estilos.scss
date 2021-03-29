@@ -9,7 +9,7 @@
     //preguntar si el z-index hace que la linea naranja se vea, porque sin ese no se ve 
     }
 
-.container img {
+.Logo {
     height: 50px;
     width: 112px;
     margin-left: -29px;
@@ -54,5 +54,5 @@
   .lista:hover {
       font-weight: bold;
       color: white;
-      text-decoration: none;
+      text-decoration: underline;
     }

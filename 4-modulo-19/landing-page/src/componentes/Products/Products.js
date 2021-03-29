@@ -4,18 +4,18 @@ import FlechaDerecha from '../../img/Icon feather-arrow-right-circle.svg'
 
 const Products = () => {
     return (
-        <section class="Products">
+        <section className="Products">
         
-        <div class="productos">
+        <div className="productos">
             <div className="imagencontainer">
             
                 <img src= {FlechaIzquierda} alt='flecha' className="flecha-izquierda"  title="Flecha izquierda" />
                 <img src= {FlechaDerecha} alt='flecha' className="flecha-derecha" title="Flecha derecha" />
             </div>
 
-            <p class="sedut">
+            <p className="sedut">
                 <span className="span"> Sed us perspiciatis </span><br/>
-                <p class="parrafo70"> Nemo Enim</p><br/>
+                <span className="parrafo70"> Nemo Enim</span><br/>
                     <span className="span1"> Sed ut perspiciatis omnis iste natus error sit <br/>
                     voluptatem accusantim doloremque laudantium, <br/> totam rem aperiam
                     </span>

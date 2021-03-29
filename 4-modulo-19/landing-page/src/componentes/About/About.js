@@ -2,15 +2,15 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section class="About" >
-        <div class="borde">
-            <div class="business">
-                <p class="bus1">  We help Bussinesses <br/>
-                    <span class="bus2"> Grow and Innovate </span>
+        <section className="About" >
+        <div className="borde">
+            <div className="business">
+                <p className="bus1">  We help Bussinesses <br/>
+                    <span className="bus2"> Grow and Innovate </span>
                 </p>
             </div>
             <div>
-                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, aspernatur. Suscipit
+                <p className="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, aspernatur. Suscipit
                     repellendus totam, ullam ratione reprehenderit excepturi dolore maiores aliquid, blanditiis nisi
                     repudiandae? Quibusdam itaque earum incidunt distinctio molestiae suscipit nihil dolores et
                     consectetur sapiente eum facilis, culpa aspernatur natus libero architecto tempora atque accusamus
