@@ -2,6 +2,15 @@
     background: linear-gradient(90deg, #f2f4f1 75%, #dce1da 25%);
     height: 1050px;
     width: 100%;
+
+    img {
+            @include breakpoint("tablet") {
+            margin-top: 40px;
+            }
+            @include breakpoint("mobile") {
+            margin-top: 20px;
+        }
+    }
 }
 
 .TitleContact {
@@ -12,6 +21,7 @@
   margin-left: 50px;
   margin-top: 20px;
   padding-top: 120px;
+  
 }   
 
 .TitleContact-span {
@@ -28,6 +38,14 @@
     margin-left: -417px;
     margin-top: 27%;
     width: 35%;
+}
+.ContactForm:required {
+    border: 1px dashed red;
+
+}
+
+.form-control:required {
+    border: 1px dashed red;
 }
 
 .form-control {
