@@ -2,12 +2,22 @@
     //preguntar por que en position relative el slider no cubrió todo el header y en absolute si
     height: 130px;
     border-bottom: 1px solid $color-primary;
-    position: absolute;
+    position: fixed;
     width: 100%;
     padding: 20px;
     z-index: 1000; 
     //preguntar si el z-index hace que la linea naranja se vea, porque sin ese no se ve 
     }
+
+.header1 {
+  background-color: orangered;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    z-index: 1000;
+    position: fixed;
+}
+
 
 .Logo {
     height: 50px;
@@ -36,11 +46,13 @@
     }
   
   
-  ul {
+  .unorderderlist {
     list-style: none;
     display: flex;
     position: fixed;
     }
+
+
   
   .lista {
     text-decoration: none;
@@ -54,5 +66,5 @@
   .lista:hover {
       font-weight: bold;
       color: white;
-      text-decoration: underline;
+      text-decoration: none;
     }

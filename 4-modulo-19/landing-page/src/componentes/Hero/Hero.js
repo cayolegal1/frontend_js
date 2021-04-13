@@ -4,7 +4,7 @@ import {Carousel, Button} from 'react-bootstrap';
 
 const Hero = () => {
     return (
-        <section className="Hero">
+        <section className="Hero" id="Home-button">
             <Carousel>
   <Carousel.Item>
     <img

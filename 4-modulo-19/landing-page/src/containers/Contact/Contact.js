@@ -21,7 +21,7 @@ const Contact = () => {
             console.log(event.target.name)
             let datos = {}  //crea un objeto vacío 
             datos[event.target.name] = event.target.value      //se le da el valor del event al objeto datos.name
-            setDataConsole( (prevState) =>{                    //crea una funcion para retornar lo de abajo
+            setDataConsole( (prevState) =>{                    //crea una funcion para retornar lo de abajo. funcion para guardar datos en DataConsole
             return {
                 ...prevState,  //hace una copia del estado anterior 
                 [event.target.name] : event.target.value  //crea un objeto para guardar el event en DataConsole y mostrarlo por consola 
@@ -32,8 +32,7 @@ const Contact = () => {
         console.log(DataConsole)
 
     const functionOnSubmit = async (event) => {
-        event.preventDefault(); 
-        console.log('Funciona de nuevo') 
+        event.preventDefault();  
         const form = event.currentTarget; //currentTarget sirve para poder usar la validación del form checkValidity()
         console.log(form.checkValidity())  //checkValidity hace la validación, devuelve true o false dependiendo si se validó o no 
 
@@ -41,7 +40,7 @@ const Contact = () => {
         if(form.checkValidity()) {  //si la validación fue correcta =
             console.log(DataConsole)
 
-            let responseData = await SendEmail(DataConsole) //se crea una variable para enviar los datos de la api, SendEmail esta declarada en index.js axios
+            let responseData = await SendEmail(DataConsole) //se crea una variable para enviar los datos de la api, SendEmail esta declarada en 'axios/index.js'
 
             console.log(responseData)
 
@@ -50,7 +49,7 @@ const Contact = () => {
     }
 
 return (
-    <section className="Contact">
+    <section className="Contact" id="Contact-button">
         <Container>
             <Row>
                 <Col md={12} lg={5}>
