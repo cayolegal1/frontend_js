@@ -1,5 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import Logo from '../../img/top-logo.svg'
+import {Link} from 'react-scroll' 
 
 
 const Header = () => {
@@ -20,17 +21,17 @@ const Header = () => {
         <header className={nav ? 'header1' : 'header'}> 
 
             <figure className="container">
-                <a href="www.facebook.com">
+                <Link to="Home-button" smooth={true} duration={1000}>
                     <img src={Logo} alt="hola" title="Logo" className="Logo" />
-                </a>
+                </Link>
             </figure>
                     <nav className= 'navbar'>
                         <ul className= 'unorderderlist'>
-                            <li id="Home"> <a className="lista" href="#Home-button">Inicio</a> </li>
-                            <li id="About"> <a className="lista" href="#About-button"> Sobre nosotros</a></li>
-                            <li id="Products"> <a className="lista" href="#Products-button">Productos</a></li>
-                            <li id="Services"> <a className="lista" href="#Services-button">Servicios</a></li>
-                            <li id="Control"> <a className="lista" href="#Contact-button"> Contacto</a></li>
+                            <li id="Home"> <Link className="lista" to="Home-button" smooth={true} duration={1000}>Inicio</Link> </li>
+                            <li id="About"> <Link className="lista" to="About-button" smooth={true} duration={1000}> Sobre nosotros</Link></li>
+                            <li id="Products"> <Link className="lista" to="Products-button" smooth={true} duration={1000}>Productos</Link></li>
+                            <li id="Services"> <Link className="lista" to="Services-button" smooth={true} duration={1000}>Servicios</Link></li>
+                            <li id="Control"> <Link className="lista" to="Contact-button" smooth={true} duration={1000}> Contacto</Link></li>
                         </ul>
                     </nav>
                     

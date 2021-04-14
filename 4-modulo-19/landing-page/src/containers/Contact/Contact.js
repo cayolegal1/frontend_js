@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Alert from 'react-bootstrap/Alert';
 import ContactImage from '../../img/contact-image.png'
 import { SendEmail } from "../../axios/index";
 
@@ -79,7 +78,7 @@ return (
                     </Button>
                 </Form>
                 <Col md={12} lg={5}>
-                <img src={ContactImage} alt="Contact Image" className="d-block w-100 imagen " />
+                <img src={ContactImage} alt="Pic of a ballon" className="d-block w-100 imagen " />
                 </Col>
             </Row>
         </Container>
