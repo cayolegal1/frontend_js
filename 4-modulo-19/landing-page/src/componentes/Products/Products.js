@@ -16,7 +16,7 @@ const Products = () => {
             <p className="sedut">
                 <span className="span"> Sed us perspiciatis </span><br/>
                 <span className="parrafo70"> Nemo Enim</span><br/>
-                    <span className="span1"> Sed ut perspiciatis omnitis iste natus error sit <br/>
+                    <span className="span1"> Sed utis perspiciatis omnitis iste natus error sit <br/>
                     voluptatem accusantim doloremque laudantium, <br/> totam rem aperiam
                     </span>
             </p>
