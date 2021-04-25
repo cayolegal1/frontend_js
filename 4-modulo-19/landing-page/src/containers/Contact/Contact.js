@@ -22,7 +22,7 @@ const Contact = () => {
             datos[event.target.name] = event.target.value      //se le da el valor del event al objeto datos.name
             setDataConsole( (prevState) =>{                    //crea una funcion para retornar lo de abajo. funcion para guardar datos en DataConsole
             return {
-                ...prevState,  //hace una copia del estado anterior 
+                ...prevState,  //hace una copia del estado anterior.
                 [event.target.name] : event.target.value  //crea un objeto para guardar el event en DataConsole y mostrarlo por consola 
             }
         } )
